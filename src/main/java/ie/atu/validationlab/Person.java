@@ -22,7 +22,7 @@ public class Person {
     private String title;
 
     @NotBlank(message = "Employee ID cannot be blank")
-    private int employeeID;
+    private int employeeId;
 
     @Min(value = 16, message = "Age must be greater than or equal to 16")
     int age;
